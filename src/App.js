@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Cart from "./Cart";
 
 const App = () => {
-    return (
-        <div>
-            <h1>Hello React</h1>
-        </div>
-    )
-}
+  return (
+    <>
+      <Cart />
+    </>
+  );
+};
 
-export default App
+export default App;
